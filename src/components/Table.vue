@@ -30,7 +30,6 @@
             id: jsdt.id,
             land: jsdt.land,
             unternehmen: jsdt.unternehmen,
-		kontinent: jsdt.kontinent,
             co2: jsdt.co2.replace(",", ""),
         })
       })
@@ -39,7 +38,7 @@
       const table = reactive({
         columns: [
           {
-            label: "Nr",
+            label: "ID",
             field: "id",
             width: "1%",
             sortable: true,
@@ -57,12 +56,7 @@
             width: "3%",
             sortable: true,
           },
-          {
-            label: "Kontinent",
-            field: "kontinent",
-            width: "3%",
-            sortable: true,
-          },
+       
           {
             label: "CO²-Emissionen in Tonnen (1965-2017)",
             field: "co2",
