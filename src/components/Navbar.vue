@@ -1,4 +1,5 @@
 <template>
+   //Logo einfügen
     <nav :dir="langDirection" class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-gray-200 mb-3">
       <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div class="w-full relative flex justify-between lg:w-auto  px-2 lg:static lg:block lg:justify-start">
@@ -14,14 +15,17 @@
           <ul class="flex flex-col lg:flex-row list-none ml-auto">
             <li class="nav-item">
               <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" href="#help">
-                <span class="ml-2">Hilfe</span>
+               //Hilfe hinzufügen zu Menü
+                  <span class="ml-2">Hilfe</span>
               </a>
             </li>
-            <li class="nav-item">
+            //Impressum zu Menü hinzufügen
+              <li class="nav-item">
               <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" href="#impressum">
                 <span class="ml-2">Impressum</span>
               </a>
             </li>
+              //Datenschutz hinzufügen
             <li class="nav-item">
               <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" href="#datenschutz">
                 <span class="ml-2">Datenschutz</span>
@@ -43,10 +47,10 @@
       }
     },
     mounted(){
-      //Sprachen die von rechts nach links geschrieben werden - Quelle: https://lingohub.com/academy/best-practices/rtl-language-list
+      //Sprachen (rechts nach links geschrieben)
       let rtlLanguages = ["ar", "arc", "dv", "fa", "ha", "he", "khw", "ks", "ku", "ps", "ur", "yi"];
 
-      //Check, ob die Navigator-Sprache in den rtl-Sprachen vorhanden ist
+      //Prüfen ob RTL-Sprachen vorhanden sind
       if(rtlLanguages.includes(navigator.language)){
         this.langDirection = "rtl"
       }
@@ -54,6 +58,8 @@
         this.langDirection = "ltr"
       }
     },
+
+      //Menü anzeigen
     methods: {
       toggleNavbar: function(){
         this.showMenu = !this.showMenu;
