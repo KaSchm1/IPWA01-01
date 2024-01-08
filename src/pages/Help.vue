@@ -1,6 +1,6 @@
 <template>
   <div class="w-full px-5 text-center">
-    <h1 class="text-2xl font-bold">Hilfe</h1>
+    <h1 class="text-2xl font-bold">FAQ</h1>
     <div class="px-5 rounded overflow-hidden shadow-lg">
       <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
