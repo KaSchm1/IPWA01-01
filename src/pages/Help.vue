@@ -35,7 +35,7 @@
                   class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
                 >
                   <svg
-                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    class="flex-shrink-0 mr-2 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@
                   class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
                 >
                   <svg
-                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    class="flex-shrink-0 mr-2 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@
                   class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
                 >
                   <svg
-                    class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
+                    class="flex-shrink-0 mr-2 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
