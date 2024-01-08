@@ -22,10 +22,11 @@
     components: { TableLite },
     setup() {
       const searchTerm = ref(""); // Suchbegriff
-      // mache Daten reaktiv
+      //Daten reaktiv
       const data = reactive([]);
       jsonData.forEach(jsdt => {
         data.push({
+		//Tabelleninhalte bestimmen
             id: jsdt.id,
             land: jsdt.land,
             unternehmen: jsdt.unternehmen,
@@ -86,7 +87,7 @@
         messages: {
             pagingInfo: "Zeige {0} bis {1} von {2}",
             pageSizeChangeLabel: "Zeilen pro Seite: ",
-            gotoPageLabel: " Gehe zu Seite: ",
+            gotoPageLabel: " Weiter zu Seite: ",
             noDataAvailable: "Keine Daten verfügbar",
         },
       });
