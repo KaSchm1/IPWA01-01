@@ -22,8 +22,7 @@ const routes = [
     component: Help,
   },
   {
-    // Document title tag
-    // We combine it with defaultDocumentTitle set in `src/main.js` on router.afterEach hook
+    // Document title tag -  Kombination aus defaultDocumentTitle und `src/main.js` on router.afterEach hook
     meta: {
       title: "Impressum",
     },
@@ -32,8 +31,7 @@ const routes = [
     component: Impressum,
   },
   {
-    // Document title tag
-    // We combine it with defaultDocumentTitle set in `src/main.js` on router.afterEach hook
+    // Document title tag - Kombination aus defaultDocumentTitle und `src/main.js` on router.afterEach hook
     meta: {
       title: "Datenschutz",
     },
