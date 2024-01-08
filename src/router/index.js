@@ -19,7 +19,7 @@ const routes = [
     },
     path: "/help",
     name: "help",
-    component: FAQ,
+    component: Help,
   },
   {
     // Document title tag -  Kombination aus defaultDocumentTitle und `src/main.js` on router.afterEach hook
