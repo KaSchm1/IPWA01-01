@@ -39,21 +39,21 @@
       const table = reactive({
         columns: [
           {
-            label: "ID",
+            label: "Nr",
             field: "id",
             width: "1%",
             sortable: true,
             isKey: true,
           },
-  {
-            label: "Land",
-            field: "land",
+		   {
+            label: "Unternehmen",
+            field: "unternehmen",
             width: "3%",
             sortable: true,
           },
-          {
-            label: "Unternehmen",
-            field: "unternehmen",
+  {
+            label: "Land",
+            field: "land",
             width: "3%",
             sortable: true,
           },
