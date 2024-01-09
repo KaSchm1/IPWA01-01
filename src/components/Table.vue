@@ -37,7 +37,7 @@
       const table = reactive({
         columns: [
           {
-            label: "ID",
+            label: "Nr",
             field: "id",
             width: "1%",
             sortable: true,
@@ -56,7 +56,7 @@
             sortable: true,
           },
           {
-            label: "MtCO2e (Kummuliert 1988-2015)",
+            label: "CO2-Emissionen in Tonnen",
             field: "co2",
             width: "3%",
             sortable: true,
