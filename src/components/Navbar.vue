@@ -14,8 +14,7 @@
           <ul class="flex flex-col lg:flex-row list-none ml-auto">
             <li class="nav-item">
               <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" href="#help">
-               //Hilfe hinzufügen zu Menü
-                  <span class="ml-2">Hilfe</span>
+                  <span class="ml-2">FAQ</span>
               </a>
             </li>
               <li class="nav-item">
