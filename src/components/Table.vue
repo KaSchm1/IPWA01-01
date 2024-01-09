@@ -29,7 +29,6 @@
             id: jsdt.id,
             land: jsdt.land,
             unternehmen: jsdt.unternehmen,
-		kontinent: jsdt.kontinent,
             co2: jsdt.co2.replace(",", ""),
         })
       })
@@ -53,12 +52,6 @@
           {
             label: "Unternehmen",
             field: "unternehmen",
-            width: "3%",
-            sortable: true,
-          },
-          {
-            label: "Kontinent",
-            field: "kontinent",
             width: "3%",
             sortable: true,
           },
